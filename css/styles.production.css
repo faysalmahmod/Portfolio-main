@@ -443,6 +443,11 @@ Secondary Color (Orange): #e0b354;
      .work-section__projects{
          gap: 10px;
      }
+     .container_table{
+       margin-left:auto;
+       margin-right:auto;
+       padding-left: 10%;
+     }
      .work-section__projects---item:last-child{
          grid-column: auto / auto;
          grid-row: auto / auto;
