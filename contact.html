@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Faisal Mahmood's Contact details</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+  </head>
+
+  <body>
+    <header class="page-header">
+    <img src="img/FM_logo.png" class="page-header__item" alt="This is the personal logo of Faisal Mahmood">
+    <nav class="page-header__item">
+         <ul role="menubar" class="navigation-list">
+             <li role="presentation">
+                 <a href="index.html" target="blank" role="menuitem" class="navigation-list__item">Home</a>
+             </li>
+             <li role="presentation" >
+                 <a href="about.html" target="blank" role="menuitem" class="navigation-list__item">About me</a>
+             </li>
+             <li role="presentation">
+                 <a href="contact.html" target="blank" role="menuitem" class="navigation-list__item">Contact</a>
+             </li>
+             <li role="presentation">
+                 <a href="work.html" target="blank" role="menuitem" class="navigation-list__item">Work</a>
+             </li>
+         </ul>
+    </nav>
+    </header>
+    <h1 class="contact-heading">Contact Us using following</h1>
+    <div class="form-Contact">
+
+      <div>
+        Tel # :- <a href="tel:+491234567">+49 1234568907</a><br>
+        Skype :- <a href="skype:Faisal_mahmood">Faisal_mahmood</a><br>
+        Email :- <a href="mailto:faysalmahmod7@gmail.com">faysalmahmod7@gmail.com</a>
+
+    <form action="#" method="post" id="contact-form">
+      			<label for="user_email" class="standard-label">E-mail*:  </label>
+      			<input id="user_email" type="email" required><br>
+
+      			<label for="user_tel" class="standard-label">Mobile*:</label>
+      			<input id="user_tel" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required><br>
+
+      			<label for="user_message" class="standard-label">Message* :</label>
+      			<textarea id="user_message" maxlength="240" required></textarea>
+            <br>
+      			<input class="button-submit" type="submit" value="Send">
+    	</form>
+    </div>
+      <footer class="page-footer">
+             <p>
+                 Find me on
+             </p >
+             <div class="page-footer__socialMedia">
+               <img src="img/githubIcon.svg" alt="Github" width="50" height="50">
+               <img src="img/twitterIcon.svg" alt="Twitter" width="50" height="50">
+               <img src="img/linkedinIcon.svg" alt="LinkedIn" width="50" height="50">
+            </div>
+      </footer>
+
+
+  	<script src="js/tota11y.min.js"></script>
+  </body>
+
+</html>
