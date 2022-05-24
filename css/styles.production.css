@@ -423,10 +423,20 @@ Secondary Color (Orange): #e0b354;
      .work-section__projects{
          grid-template-columns: 1fr;
      }
+     .container_table{
+       margin-left:auto;
+       margin-right:auto;
+       padding-left: 10%;
+     }
  }
  @media all and (min-width: 500px) and (max-width: 750px) {
      .work-section__projects{
          grid-template-columns: 1fr 1fr;
+     }
+     .container_table{
+       margin-left:auto;
+       margin-right:auto;
+       padding-left: 10%;
      }
  }
  @media all and (max-width: 750px) {
@@ -439,5 +449,10 @@ Secondary Color (Orange): #e0b354;
      }
      h1{
      font-size: 20px;
+     }
+     .container_table{
+       margin-left:auto;
+       margin-right:auto;
+       padding-left: 10%;
      }
  }
