@@ -455,4 +455,9 @@ Secondary Color (Orange): #e0b354;
      h1{
      font-size: 20px;
      }
+     .container_table{
+       margin-left:auto;
+       margin-right:auto;
+       padding-left: 10%;
+     }
  }
